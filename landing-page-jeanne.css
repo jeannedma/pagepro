@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Hurricane&display=swap');
+
+
+#banner{
+	background-image: url(image/phytomer_mer.jpg);
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+h1{
+	color: #003245;
+	font-size: 65px;
+	font-family: 'EB Garamond', serif;
+	padding-top: 40vh;
+	margin: 0;
+}
+
+#sub-banner{
+	color: #015F7B;
+	opacity: 0,7;
+	font-family: 'EB Garamond', serif;
+	font-size: 35px;
+}
+
+#sub-phytomer{
+	color: #0C1B47;
+	font-family: 'EB Garamond', serif;
+	font-size: 25px;
+	padding-top: 5vh;
+	text-align: center;
+}
+
+#container-phytomer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card{
+	background-color: white;
+	width: 228px;
+	height: 315px;
+	box-shadow: 0 0 5px #0C1B47 ;
+	border-radius: 2px;
+	padding: 24px;
+	margin: 10px;
+}
+
+.card:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease-out;
+}
+
+.card img{
+	width: 100%;
+	height: 180px;
+	border-radius: 4px;
+	object-fit: cover;
+}
+
+.card h3{
+	color: #0C1B47;
+	font-family: 'EB Garamond', serif;
+	font-size: 24px;
+}
+
+.card p{
+	font-family: 'EB Garamond', serif;
+	color: #92BECB;
+	font-size: 18px;
+}
+
+#phytomer-bouton{
+	color: #92BECB;
+	text-decoration: none;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	background-color: #0C1B47;
+	position: relative;
+	top: 50px;
+	border-radius: 2px;
+	font-weight: bold;
+	padding: 5px 60px;
+}
+
+#phytomer-bouton:hover{
+	transition: all 0.5s ease-out;
+	background-color: #92BECB;
+	color: #0C1B47;
+	padding: 8px 800px;
+}
+
+#container-douceurmarine{
+	background-color: white;
+	width: 900px;
+	text-align: center;
+	padding: 70px 50px;
+	margin: auto;
+}
+
+video {
+	object-fit: cover;
+	display: flex;
+	box-sizing: inherit;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#footer{
+	height: 562px;
+	background-color: #0C1B47;
+	color: white;
+	margin-top: 50px;
+	padding-top:2%;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
